@@ -45,7 +45,7 @@ end)
 
 RegisterNetEvent('silahdonustur:animasyongir', function(data)
     local weaponType = data.weaponType
-    TriggerServerEvent('weaponMerge:mergeWeapon', weaponType)
+    TriggerServerEvent('silahdonustur:animasyongir', weaponType)
 end)
 
 RegisterNetEvent('weaponMerge:playAnimation', function()
